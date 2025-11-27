@@ -105,14 +105,16 @@ right:300px;
   color: white;
   font-weight: bold;
  width: 120PX;
+ z-index:0;
 }
 .again{
   width: 70px;
   border-radius: 100PX;
   margin-left: 10px;
+  z-index:2;
 }
 .then{
-background:rgba(175, 175, 175, 0.267) ;
+background:rgba(190, 112, 112, 0.267) ;
 
 position: absolute;
 top: 310px;
@@ -124,7 +126,7 @@ border-radius: 25px;
 
 }
 .insta{
- margin-left: 10px;
+ margin-left: 27px;
 color: white;
  cursor: pointer;
 text-decoration: none;
@@ -135,15 +137,18 @@ text-decoration: none;
   left: 67px;
   position: absolute;
   top: 57px;
+  z-index: 2;
 }
 .seen{
   position: absolute;
-  top:30px;
-  left: 96px;
+  top:33px;
+  left: 110px;
 font-weight: 500;
 font-family: arial;  
 font-size: small;
-
+font-weight: bolder;
+color: rgb(182, 187, 233);
+box-shadow:  2,2,2,100 rgba(182, 187, 233,0.1) ;
 
 } 
 .icons{
@@ -288,19 +293,46 @@ transform: scale(120%) translatey(20%) translateX(-20%);
   display: none;
 }
 
+  .pc{
   
+ position: absolute;
+    transform: scale(30%);
+right:640px;
+ top:220px;
+   
+  }
+ 
+  
+ 
 
+ .wings{
+transform: scale(25%);
+position: absolute;
+
+
+z-index: 1;
+border-radius: 100PX;
+
+left: 0px;
+top: 190px;
+ }
 </style>
   </head>
   <body>
 
  <div class="main">
-  <img class="background" src="./photosa/green.jpg">
-  <audio   autoplay loop>
+    
+  <img class="background" src="step/Kali Linux.jpeg">
+  
+
+  
+   
+ <audio   autoplay loop>
  
     <source src="./photosa/icthub.co.za - ByErik ヵ - desolate (Slowed) (320 KBps).mp3" type="audio/mpeg" class="audio">
   </audio>
   <div class="container">
+    <img class="pc" src="step/Pixel Coding Sticker.gif" >
     <p  class="hello">:D
     </p>
     <div class="all">
@@ -312,17 +344,24 @@ transform: scale(120%) translatey(20%) translateX(-20%);
         <ion-icon name="balloon-outline" class="ballon"></ion-icon>
       </div>
       
-      <img src="./photosa/Tired Sweet Dreams Sticker by Zeek.gif" class="zz">
-      <img class="photo" src="./photosa/idk.jpg">
+      <img src="step/Tired Sweet Dreams Sticker by Zeek.gif" class="zz">
+      <img class="photo" src="step/`✧ 𝐒𝐭𝐨𝐫𝐦𝐲 𝜗𝜚` on TikTok(1).jpeg">
+     
       <ion-icon name="happy-outline" class="emoji"></ion-icon>
+      <img src="step/Angel Wings Pink Sticker.gif" class="wings">
      <div class="then">
     
-      <img src="./photosa/idk.jpg" class="again">
+      <img src="step/`✧ 𝐒𝐭𝐨𝐫𝐦𝐲 𝜗𝜚` on TikTok(1).jpeg" class="again">
+      
    <a href="https://www.instagram.com/t.kic1/?next=%2F"><p class="insta">t.kic1</p></a>
-     <img src="./photosa/4572-discord-idle.png" class="offline">
-     <p class="seen"><i> I love the sunset </i> </p>
+     <img src="step/3191_invisible.png" class="offline">
+     <p class="seen"><i> insane devlopment ! </i> </p>
     </div>
-    <div class="icons">
+    <div>
+
+
+<div class="icons">
+    
       <a href="https://www.instagram.com/t.kic1/?next=%2F"><ion-icon name="logo-instagram" class="instagram"></ion-icon></a>
       
       <a href="https://discord.gg/n65aRctE"><img src="./photosa/icons8-discord-50.png" class="discord"></ion-icon></a>
@@ -331,10 +370,13 @@ transform: scale(120%) translatey(20%) translateX(-20%);
   <a href="https://www.roblox.com/users/4115425333/profile"><img src="./photosa/icons8-roblox-50.png" class="roblox"></a>
 
 </div>
+    </div>
+    
+ 
   </div>
      
     
-    
+   
   </div>
 
  </div>
@@ -342,7 +384,6 @@ transform: scale(120%) translatey(20%) translateX(-20%);
  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
   </body>
 </html>
-
 
 
 
